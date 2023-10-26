@@ -20,7 +20,7 @@ var allQuestions = [
         answer: "The Nile River",
     },
     {
-        question: "Game over! Enter first name then press enter to record score!",
+        question: "Quiz over! Enter first name then press enter to record score!",
         options: []
 
     },
