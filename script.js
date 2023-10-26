@@ -32,7 +32,7 @@ var storedScores = [];
 var correctAnswers = 0;
 
 var timeLeft = 30;
-timer.textContent = timeLeft + " seconds remaining";
+timer.textContent = timeLeft + " Seconds remaining";
 
 var initialsValue = null;
 
