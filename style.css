@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.container {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    height: 100%;
+    max-height: 550px;
+    max-width: 80%;
+    padding: 100px;
+    margin-top: 10px;
+  }
+  
+  .questions {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    margin-top: 5%;
+    font-size: 35px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  }
+
+  h1 {
+    display: flex;
+    justify-content: center;
+
+  }
+input {
+  font-size: 40px;
+  max-width: 100px;
+}
+  button {
+    padding: 8px;
+    padding-top: 40;
+    margin: 20px;
+    width: 120px;
+    height: 60px;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+  }  
+
+  #timer {
+    display: flex;
+    align-items: center;
+    margin-left: 80%;
+    font-size: 35px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  }
+#buttonArea {
+  margin-top: 50px;
+  justify-content: center;
+}
+
+#score {
+  display: "none";
+  font-size: 35px;
+}
+#scoresListButton {
+  display: flex;
+  margin: 10px;
+}
+#scoreSheet {
+  font-size: 20px;
+  width: 30%;
+  
+}
+p {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
